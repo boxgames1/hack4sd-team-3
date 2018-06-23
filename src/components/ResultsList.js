@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { STATUS_CODES } from "http";
 import PropTypes from "prop-types";
 import ResultItem from "./ResultItem";
 import { oviedo } from "../mocks/mock1";
