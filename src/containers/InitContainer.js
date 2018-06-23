@@ -9,8 +9,6 @@ const InitContainer = () => (
     <div className="SeasonButtonsContainer col-md-12">
       <SeasonButton option={1} />
       <SeasonButton option={2} />
-      <SeasonButton option={3} />
-      <SeasonButton option={4} />
     </div>
   </div>
 );

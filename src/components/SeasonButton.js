@@ -6,16 +6,10 @@ class SeasonButton extends Component {
     let season;
     switch (props.option) {
       case 1:
-        season = "Winter";
+        season = "Auttumn/Winter";
         break;
       case 2:
-        season = "Spring";
-        break;
-      case 3:
-        season = "Summer";
-        break;
-      case 4:
-        season = "Auttumn";
+        season = "Spring/Summer";
         break;
     }
     this.state = {
