@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Map from "../components/Map";
+import MapList from "../components/MapList";
 import "../css/components/map.css";
 import { getHemisphereFromDateSeason } from "../helpers/Utils";
 class MapContainer extends Component {
@@ -21,6 +22,7 @@ class MapContainer extends Component {
       <div className="MapContainer">
         {this.state.season} y {this.state.hemisphere}
         <Map />
+        <MapList />
       </div>
     );
   }
