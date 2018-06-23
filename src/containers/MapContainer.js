@@ -20,7 +20,6 @@ class MapContainer extends Component {
   render() {
     return (
       <div className="MapContainer">
-        {this.state.season} y {this.state.hemisphere}
         <Map />
         <MapList />
       </div>
