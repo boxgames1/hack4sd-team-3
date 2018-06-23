@@ -10,7 +10,7 @@ const App = () => (
     <div className="App">
       <Route exact path="/" component={InitScreen} />
       <Route path="/map/:season" component={MapScreen} />
-      <Route path="/results/:params/" component={ResultsScreen} />
+      <Route path="/results/:coordinates/" component={ResultsScreen} />
     </div>
   </BrowserRouter>
 );

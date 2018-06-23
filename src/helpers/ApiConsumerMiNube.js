@@ -1,4 +1,4 @@
-const MINUBE_ENDPOINT = "http://papi.minube.com/";
+const MINUBE_ENDPOINT = "http://papi.minube.com:80/";
 const API_KEY = "V8p7DUAN3G3mwh5H";
 /* Funcion que ejecuta la request */
 export function sendRequest(postData, url, requestType, callback) {
@@ -10,7 +10,7 @@ export function sendRequest(postData, url, requestType, callback) {
       requestBody = {
         method: requestType,
         headers: {
-          "Content-Type": "application/json"
+          Accept: "application/json"
         },
         body: JSON.stringify(postData)
       };
@@ -19,8 +19,9 @@ export function sendRequest(postData, url, requestType, callback) {
       /* GET/DELETE */
       requestBody = {
         method: requestType,
+
         headers: {
-          "Content-Type": "application/json"
+          Accept: "application/json"
         }
       };
       break;
@@ -32,7 +33,7 @@ export function sendRequest(postData, url, requestType, callback) {
     .then(response => callback(response));
 }
 
-export function getCountries() {
-  const url = MINUBE_ENDPOINT + "countries?lang=en&api_key=" + API_KEY;
+export function getPOI(lat, lng, distance, callback) {
+  const url = `${MINUBE_ENDPOINT}pois?lang=en&latitude=${lat}&longitude=${lng}&max_distance=${distance}&api_key=${API_KEY}`;
   sendRequest(null, url, "GET", callback);
 }

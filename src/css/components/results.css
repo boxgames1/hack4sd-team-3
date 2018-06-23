@@ -1,2 +1,5 @@
 .ResultsContainer .ResultsList {
   color: #000; }
+
+.ResultsContainer .ResultsList .POI img {
+  width: 100%; }
