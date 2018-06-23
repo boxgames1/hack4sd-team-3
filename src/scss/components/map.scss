@@ -1,0 +1,6 @@
+@import "../Variables.scss";
+.MapContainer{
+    & .Map{
+        color: $app-text-color;
+    }
+}

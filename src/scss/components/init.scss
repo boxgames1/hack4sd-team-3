@@ -1,0 +1,6 @@
+@import "../Variables.scss";
+.InitContainer{
+    & .SeasonButton{
+        color: $app-text-color;
+    }
+}
