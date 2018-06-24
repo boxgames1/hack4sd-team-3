@@ -1,45 +1,64 @@
 import React, { Component } from "react";
-import { getHotels } from '../helpers/ApiConsumerAmadeus';
 
+import { getHotels } from '../helpers/ApiConsumerAmadeus';
+import PropTypes from "prop-types";
+import ResultItem from "./ResultItem";
+import { oviedo } from "../mocks/mock1";
+import { getPOI } from "../helpers/ApiConsumerMiNube";
+import { ListGroup } from "react-bootstrap";
 
 class ResultsList extends Component {
   constructor(props){
     super(props);
-    this.state = {
+      latitude: props.latitude,
+      longitude: props.longitude,
+      type: props.type,
+      items: [],
       hotels: [],
-      latitude: 52.5238,//props.latitude,
-      longitude: 13.3835//props.longitude
     };
     this.setHotels = this.setHotels.bind(this);
   }
+  
   setHotels(hotels){
     this.setState({
       hotels
     });
   };
-  componentWillMount(){
+
+  componentWillMount() {
     getHotels(this.state.latitude, this.state.longitude, this.setHotels);
+    // MiNube
+    // getPOI(this.state.latitude, this.state.longitude, 100000, this.setItems);
+    if (this.state.type === "2") {
+      this.setItems(oviedo);
+    }
+    // TODO get data from API's and paint through callbacks
   }
 
+  setItems(items) {
+    console.log(items);
+    this.setState({
+      items
+    });
+  }
   render() {
-    if(this.state.hotels.length > 0) console.log(this.state.hotels);
     return (
-      <div id = "ResultsList">
-        {this.state.hotels && this.state.hotels.length > 0 && this.state.hotels.map( hotel => (
-          <div className="Hotel">
-            {hotel.hotel.name}
-            <ul className = "list-group">
-              {hotel.offers && hotel.offers.length > 0 && hotel.offers.map( offer => (
-                <ul>
-                  <li className="list-group-item">{offer.room.description.text}</li> 
-                  <li className="list-group-item">{offer.guests.adults} adults: {offer.price.total} {offer.price.currency} </li>         
-                </ul>
-              ))}
-            </ul>
-          </div>
-        ))}
+      <div className="ResultsList">
+        <ListGroup>
+          {this.state.items &&
+            this.state.items.length > 0 &&
+            this.state.items.map(item => (
+              <ResultItem item={item} key={item.id} type={this.state.type} />
+            ))}
+        </ListGroup>
       </div>
     );
-  }
 }
+
+ResultsList.propTypes = {
+  latitude: PropTypes.string.isRequired,
+  longitude: PropTypes.string.isRequired,
+  type: PropTypes.string.isRequired
+};
+
 export default ResultsList;
