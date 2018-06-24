@@ -35,13 +35,9 @@ class ResultItem extends Component {
         <ListGroupItem href="#link1">
           <div className="POI col-md-12">
             <div className="col-md-4">{props.item.name}</div>
-            <div className="col-md-4">
-              {props.item.latitude}, {props.item.longitude}
-            </div>
             <div className="col-md-2">
               {getCategoryByID(props.item.subcategory_id)}
             </div>
-            <div className="col-md-2">{props.item.distance / 1000} kms</div>
             <div className="col-md-12">
               <img src={props.item.picture_url} />
             </div>

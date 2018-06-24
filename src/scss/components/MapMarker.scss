@@ -1,0 +1,35 @@
+.MapMarkerContainer {
+    display: block;
+    position: relative;
+  
+    & .MapMarker {
+      &.default {
+        background-image: url("/img/icon_marker.png");
+        width: 45px;
+        height: 70px;
+        margin-top: -70px;
+        margin-left: -22.5px;
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    }
+  
+    & .MapMarkerInfo {
+      position: absolute;
+      background: white;
+      padding: 8px;
+      width: 150px;
+      right: -75px;
+      font-weight: 600;
+      top: -50%;
+      display: none;
+      line-height: 1.3;
+      font-size: 13px;
+    }
+  
+    &:hover .MapMarkerInfo{
+      display: block;
+    }
+  
+  }
+  

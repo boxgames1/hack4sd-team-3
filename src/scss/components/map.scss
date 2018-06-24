@@ -3,16 +3,6 @@
   & .Map {
     color: $app-text-color;
     height: 50vh;
-    & #c-map {
-      position: relative;
-      top: 0;
-      right: 0;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      height: 100%;
-    }
-
     & .input {
       margin: auto;
       position: absolute;
@@ -33,5 +23,41 @@
   }
   & .MapList {
     height: 50vh;
+    padding-top: 30px;
+    & .slick-list {
+      width: 90%;
+      margin: 0 5%;
+    }
+    & input {
+      width: 90%;
+      margin: 10% 5%;
+    }
+    & .slick-prev{
+      left: 5px;
+      z-index: 5000;
+    } 
+    & .slick-next{
+      right: 5px;
+      z-index: 5000;
+    }
+    & .slick-prev:before, & .slick-next:before{
+      color: black;
+    }
+    & .MapListItem{
+      width: 100%;
+      & a{
+        text-decoration: none;
+      }
+      & img{
+        width: 80%;
+        margin: 0 10%;
+      }
+      & p {
+        color: green;
+      }
+      & h2 {
+        font-weight: bold;
+      }
+    }
   }
 }
