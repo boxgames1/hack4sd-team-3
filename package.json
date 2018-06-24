@@ -3,7 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "ajv": "^6.0.0",
+    "amadeus": "^1.0.1",
     "bootstrap": "3.3.6",
+    "eslint": "^4.1.1",
+    "eslint-plugin-import": "^2.6.0",
     "font-awesome": "^4.7.0",
     "gh-pages": "^1.2.0",
     "jquery": "2.2.4",
@@ -21,6 +25,7 @@
     "react-swipe": "^5.1.1",
     "slick-carousel": "^1.8.1",
     "swipe-js-iso": "^2.0.4",
+    "vega": "^3.3.1",
     "wri-api-components": "^1.1.0",
     "wri-json-api-serializer": "^1.0.1"
   },

@@ -1801,3 +1801,369 @@ export const topciudades = [
     city: "Cudillero"
   }
 ];
+export const hotels = [{
+  "type": "hotel-offers",
+  "hotel": {
+    "type": "hotel",
+    "hotelId": "AROVDFOR",
+    "chainCode": "AR",
+    "dupeId": "700026139",
+    "name": "AC BY MARRIOTT OVIEDO FORUM",
+    "cityCode": "OVD",
+    "latitude": 43.3593,
+    "longitude": -5.83745
+  },
+  "available": false,
+  "offers": [{
+    "id": "774702DE7B9B87CB8FC17F3CB869184D8AB8A16EC3D17E8FCB5A52FCB1F92D69",
+    "rateCode": "RAC",
+    "room": {
+      "type": "REG",
+      "typeEstimated": {
+        "beds": 1,
+        "bedType": "SINGLE"
+      },
+      "description": {
+        "lang": "EN",
+        "text": "Regular Rate 1 Queen or 2 Twin/Single Bed(s), Wireless inter net, complimentary"
+      }
+    },
+    "guests": {
+      "adults": 1
+    },
+    "price": {
+      "currency": "EUR",
+      "total": "78.10"
+    }
+  }],
+  "self": "https://test.api.amadeus.com/v1/shopping/hotels/AROVDFOR/hotel-offers"
+},
+{
+  "type": "hotel-offers",
+  "hotel": {
+    "type": "hotel",
+    "hotelId": "TYOVDHES",
+    "chainCode": "TY",
+    "dupeId": "700025517",
+    "name": "GRAN HOTEL ESPANA ATIRAM",
+    "cityCode": "OVD",
+    "latitude": 43.36332,
+    "longitude": -5.84512
+  },
+  "available": false,
+  "offers": [{
+    "id": "FF00A800DCC81DA508FF277810CEF395B04555A2F519135690C0E7178C8D2C31",
+    "rateCode": "BAR",
+    "commission": {
+      "percentage": "10.0"
+    },
+    "room": {
+      "type": "C1S",
+      "typeEstimated": {
+        "beds": 1,
+        "bedType": "SINGLE"
+      },
+      "description": {
+        "lang": "EN",
+        "text": "DAILY BEST AVAILABLE RATE SINGLE ROOM Individual air conditioning, minibar, WiFi, TV"
+      }
+    },
+    "guests": {
+      "adults": 1
+    },
+    "price": {
+      "currency": "EUR",
+      "total": "63.00",
+      "variations": {
+        "average": {
+          "total": "63.00"
+        }
+      }
+    },
+    "policies": {
+      "cancellation": {
+        "deadline": "2018-06-23T18:00:00"
+      },
+      "guarantee": {
+        "acceptedPayments": {
+          "methods": ["CREDIT_CARD",
+          "TRAVEL_AGENT_ID"]
+        }
+      }
+    }
+  }],
+  "self": "https://test.api.amadeus.com/v1/shopping/hotels/TYOVDHES/hotel-offers"
+},
+{
+  "type": "hotel-offers",
+  "hotel": {
+    "type": "hotel",
+    "hotelId": "HSOVDABH",
+    "chainCode": "HS",
+    "dupeId": "700094595",
+    "name": "HOTEL CONFORT",
+    "cityCode": "OVD",
+    "latitude": 43.36821,
+    "longitude": -5.8449
+  },
+  "available": true,
+  "offers": [{
+    "id": "65D9974429D5CDE40E578DB33340C365DFA3A4A4CB7397DA0E7595159CD186AB",
+    "rateCode": "RAC",
+    "commission": {
+      "percentage": "4.00"
+    },
+    "room": {
+      "type": "ROH",
+      "description": {
+        "lang": "es",
+        "text": "Tarifa HRS Habitacion estandar La habitacion estandar es una habitacion con ducha-inodoro o banera-inodoro."
+      }
+    },
+    "guests": {
+      "adults": 1
+    },
+    "price": {
+      "currency": "EUR",
+      "total": "35.00",
+      "taxes": [{
+        "code": "VALUE_ADDED_TAX",
+        "percentage": 10.0,
+        "included": true
+      }],
+      "variations": {
+        "average": {
+          "total": "35.00"
+        },
+        "changes": [{
+          "startDate": "2018-06-24",
+          "endDate": "2018-06-25",
+          "total": "35.00"
+        }]
+      }
+    },
+    "policies": {
+      "cancellation": {
+        "numberOfNights": 1,
+        "type": "NIGHTS",
+        "deadline": "2018-06-23T22:59:00"
+      },
+      "guarantee": {
+        "acceptedPayments": {
+          "creditCards": ["VI",
+          "MC",
+          "CA"],
+          "methods": ["CREDIT_CARD"]
+        }
+      }
+    }
+  }],
+  "self": "https://test.api.amadeus.com/v1/shopping/hotels/HSOVDABH/hotel-offers"
+},
+{
+  "type": "hotel-offers",
+  "hotel": {
+    "type": "hotel",
+    "hotelId": "HSOVDACH",
+    "chainCode": "HS",
+    "dupeId": "700169191",
+    "name": "CARBAYON II.",
+    "cityCode": "OVD",
+    "latitude": 43.37187,
+    "longitude": -5.83111
+  },
+  "available": true,
+  "offers": [{
+    "id": "FA54532FBDB06A78D651554F1A5A11C155532F6645097ED2AD9D7FCC7DE84289",
+    "rateCode": "RAC",
+    "commission": {
+      "percentage": "4.00"
+    },
+    "room": {
+      "type": "ROH",
+      "description": {
+        "lang": "es",
+        "text": "Tarifa HRS Habitacion estandar La habitacion estandar es una habitacion con ducha-inodoro o banera-inodoro."
+      }
+    },
+    "guests": {
+      "adults": 1
+    },
+    "price": {
+      "currency": "EUR",
+      "total": "39.00",
+      "taxes": [{
+        "code": "VALUE_ADDED_TAX",
+        "percentage": 10.0,
+        "included": true
+      }],
+      "variations": {
+        "average": {
+          "total": "39.00"
+        },
+        "changes": [{
+          "startDate": "2018-06-24",
+          "endDate": "2018-06-25",
+          "total": "39.00"
+        }]
+      }
+    },
+    "policies": {
+      "cancellation": {
+        "numberOfNights": 1,
+        "type": "NIGHTS",
+        "deadline": "2018-06-24T17:00:00"
+      },
+      "guarantee": {
+        "acceptedPayments": {
+          "creditCards": ["VI",
+          "MC",
+          "CA",
+          "AX"],
+          "methods": ["CREDIT_CARD"]
+        }
+      }
+    }
+  }],
+  "self": "https://test.api.amadeus.com/v1/shopping/hotels/HSOVDACH/hotel-offers"
+},
+{
+  "type": "hotel-offers",
+  "hotel": {
+    "type": "hotel",
+    "hotelId": "HSOVDACS",
+    "chainCode": "HS",
+    "dupeId": "700084578",
+    "name": "GRAN HOTEL LAS CALDAS",
+    "cityCode": "OVD",
+    "latitude": 43.33202,
+    "longitude": -5.92425
+  },
+  "available": true,
+  "offers": [{
+    "id": "9C795D920D7DBB6482EFDE98780583D5527B18B9692542180A0216881C908B0D",
+    "rateCode": "RAC",
+    "commission": {
+      "percentage": "4.00"
+    },
+    "boardType": "BREAKFAST",
+    "room": {
+      "type": "ROH",
+      "description": {
+        "lang": "es",
+        "text": "Tarifa HRS Habitacion estandar La habitacion estandar es una habitacion con ducha-inodoro o banera-inodoro."
+      }
+    },
+    "guests": {
+      "adults": 1
+    },
+    "price": {
+      "currency": "EUR",
+      "total": "128.00",
+      "taxes": [{
+        "code": "VALUE_ADDED_TAX",
+        "percentage": 10.0,
+        "included": true
+      }],
+      "variations": {
+        "average": {
+          "total": "128.00"
+        },
+        "changes": [{
+          "startDate": "2018-06-24",
+          "endDate": "2018-06-25",
+          "total": "128.00"
+        }]
+      }
+    },
+    "policies": {
+      "cancellation": {
+        "numberOfNights": 1,
+        "type": "NIGHTS",
+        "deadline": "2018-06-23T22:59:00"
+      },
+      "guarantee": {
+        "acceptedPayments": {
+          "creditCards": ["DC",
+          "DN",
+          "VI",
+          "MC",
+          "CA",
+          "AX"],
+          "methods": ["CREDIT_CARD"]
+        }
+      }
+    }
+  }],
+  "self": "https://test.api.amadeus.com/v1/shopping/hotels/HSOVDACS/hotel-offers"
+},
+{
+  "type": "hotel-offers",
+  "hotel": {
+    "type": "hotel",
+    "hotelId": "HSOVDACR",
+    "chainCode": "HS",
+    "dupeId": "501819303",
+    "name": "ENCLAVE LAS CALDAS",
+    "cityCode": "OVD",
+    "latitude": 43.33206,
+    "longitude": -5.92603
+  },
+  "available": true,
+  "offers": [{
+    "id": "8CD29D93EC0EFDAF551CBBCDD3CEED76DF084BFE0D5DDCF621DF2C28361A00D4",
+    "rateCode": "RAC",
+    "commission": {
+      "percentage": "4.00"
+    },
+    "boardType": "BREAKFAST",
+    "room": {
+      "type": "ROH",
+      "description": {
+        "lang": "es",
+        "text": "Tarifa HRS Habitacion estandar La habitacion estandar es una habitacion con ducha-inodoro o banera-inodoro."
+      }
+    },
+    "guests": {
+      "adults": 1
+    },
+    "price": {
+      "currency": "EUR",
+      "total": "97.00",
+      "taxes": [{
+        "code": "VALUE_ADDED_TAX",
+        "percentage": 10.0,
+        "included": true
+      }],
+      "variations": {
+        "average": {
+          "total": "97.00"
+        },
+        "changes": [{
+          "startDate": "2018-06-24",
+          "endDate": "2018-06-25",
+          "total": "97.00"
+        }]
+      }
+    },
+    "policies": {
+      "cancellation": {
+        "numberOfNights": 1,
+        "type": "NIGHTS",
+        "deadline": "2018-06-23T22:59:00"
+      },
+      "guarantee": {
+        "acceptedPayments": {
+          "creditCards": ["DC",
+          "DN",
+          "VI",
+          "MC",
+          "CA",
+          "AX"],
+          "methods": ["CREDIT_CARD"]
+        }
+      }
+    }
+  }],
+  "self": "https://test.api.amadeus.com/v1/shopping/hotels/HSOVDACR/hotel-offers"
+}]
