@@ -4,6 +4,7 @@ import { getHotels } from '../helpers/ApiConsumerAmadeus';
 import PropTypes from "prop-types";
 import ResultItem from "./ResultItem";
 import { oviedo } from "../mocks/mock1";
+import { hotels } from "../mocks/mock1";
 import { getPOI } from "../helpers/ApiConsumerMiNube";
 import { ListGroup } from "react-bootstrap";
 
@@ -21,12 +22,15 @@ class ResultsList extends Component {
 
   componentWillMount() {
     //Amadeus
-    if(this.state.type === "1")
-      getHotels(this.state.latitude, this.state.longitude, this.setHotels);
+    if(this.state.type === "1"){
+      this.setItems(hotels)
+      //getHotels(this.state.latitude, this.state.longitude, this.setHotels);
+    }
+      
     // MiNube
-    // getPOI(this.state.latitude, this.state.longitude, 100000, this.setItems);
     if (this.state.type === "2") {
       this.setItems(oviedo);
+      // getPOI(this.state.latitude, this.state.longitude, 100000, this.setItems);
     }
     // TODO get data from API's and paint through callbacks
   }
