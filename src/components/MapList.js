@@ -29,7 +29,7 @@ class MapList extends Component {
       let searchValue = el.city.toLowerCase();
       return searchValue.indexOf(e.target.value) !== -1;
     });
-    this.state.changeFirst(items[0]);
+    if (items.length > 0) this.state.changeFirst(items[0]);
     this.setState({
       search: e.target.value,
       items

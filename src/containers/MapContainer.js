@@ -36,16 +36,25 @@ class MapContainer extends Component {
       lat: parseFloat(item.lat),
       lng: parseFloat(item.lng)
     };
-    console.log(center, this.state.center);
     this.setState({
       form: center,
       city: item.name
     });
   }
 
+  goToHome() {
+    window.location = "/";
+  }
+
   render() {
     return (
       <div className="MapContainer">
+        <button
+          className="btn btn-default returnButton"
+          onClick={this.goToHome}
+        >
+          Return
+        </button>
         <Map
           center={this.state.center}
           zoom={this.state.zoom}

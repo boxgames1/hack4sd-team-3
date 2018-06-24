@@ -11,11 +11,19 @@ class ResultsContainer extends Component {
       longitude: props.longitude
     };
   }
-
+  goToHome() {
+    window.location = "/";
+  }
   render() {
     // lists types 1 - hotels(amadeus), 2 - POI(minube)
     return (
       <div className="ResultsContainer">
+        <button
+          className="btn btn-default returnButton"
+          onClick={this.goToHome}
+        >
+          Return
+        </button>
         <Tabs defaultActiveKey={1} id="uncontrolled-tab-example">
           <Tab title="Hotels" eventKey={1}>
             <ResultsList
