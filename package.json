@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "amadeus": "^1.0.1",
     "bootstrap": "3.3.6",
+    "eslint": "^4.1.1",
+    "eslint-plugin-import": "^2.6.0",
     "font-awesome": "^4.7.0",
     "gh-pages": "^1.2.0",
     "jquery": "2.2.4",
