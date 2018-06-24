@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import MapListItem from "./MapListItem";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 class MapList extends Component {
   constructor(props) {
@@ -63,23 +65,22 @@ class MapList extends Component {
 
   render() {
     const settings = {
-      dots: true,
+      dots: false,
       infinite: true,
       speed: 500,
       slidesToShow: 3,
-      slidesToScroll: 3
+      slidesToScroll: 3,
+      arrows: true
     };
-    console.log(this.state.items);
     return (
       <div className="MapList">
-        {this.state.items &&
-          this.state.items.length > 0 && (
-            <Slider settings={settings}>
-              {this.state.items.map((item, index) => (
-                <MapListItem key={index} item={item} />
-              ))}
-            </Slider>
-          )}
+        {this.state.items.length > 0 && (
+          <Slider {...settings}>
+            {this.state.items.map((item, index) => (
+              <MapListItem key={index} item={item} />
+            ))}
+          </Slider>
+        )}
       </div>
     );
   }
