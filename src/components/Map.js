@@ -1,16 +1,14 @@
 import React, { Component } from "react";
 import { mapa1, mapa2 } from "../mocks/mock1";
 import GoogleMapReact from "google-map-react";
+import MapMarker from "./MapMarker";
 
 class Map extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      center: {
-        lat: parseFloat(props.lat),
-        lng: parseFloat(props.lng)
-      },
-      zoom: 16,
+      center: props.center,
+      zoom: props.zoom,
       options: {
         minZoom: 10
       },
@@ -35,7 +33,13 @@ class Map extends Component {
           defaultCenter={this.state.center}
           defaultZoom={this.state.zoom}
           options={this.state.options}
-        />
+        >
+          <MapMarker
+            lat={this.props.lat}
+            lng={this.props.lng}
+            class="default animated slideInDown animation-delay-200"
+          />
+        </GoogleMapReact>
       </div>
     );
   }

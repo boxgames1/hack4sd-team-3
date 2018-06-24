@@ -802,85 +802,124 @@ export function getCategoryByID(id) {
 }
 export let ciudades = [
   {
-    img:
-      "https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    img: "http://lorempixel.com/640/480/city/1",
     temperature: 21,
     city: "Gijon",
+    lat: 43.5293101,
+    lng: -5.6773233,
     pm25: 12,
     co2: 2,
     o2: 4
   },
   {
-    img:
-      "https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    img: "http://lorempixel.com/640/480/city/2",
     temperature: 17,
     city: "Oviedo",
+    lat: 43.3579649,
+    lng: -5.8733862,
     pm25: 2,
     co2: 1,
     o2: 3
   },
   {
-    img:
-      "https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    img: "http://lorempixel.com/640/480/city/3",
     temperature: 23,
     city: "Aviles",
+    lat: 43.360259,
+    lng: -5.844758,
     pm25: 8,
     co2: 13,
     o2: 8
   },
   {
-    img:
-      "https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    img: "http://lorempixel.com/640/480/city/4",
     temperature: 14,
     city: "Langreo",
+    lat: 43.2915960588684,
+    lng: -5.6993772779,
     pm25: 22,
     co2: 3,
     o2: 4
   },
   {
-    img:
-      "https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    img: "http://lorempixel.com/640/480/city/11",
     temperature: 26,
     city: "Llanes",
+    lat: 43.4189204416014,
+    lng: -4.7887834529,
     pm25: 1,
     co2: 1,
     o2: 4
   },
   {
-    img:
-      "https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    img: "http://lorempixel.com/640/480/city/5",
     temperature: 15,
     city: "Mieres",
+    lat: 43.2342843308797,
+    lng: -5.7507060803,
     pm25: 10,
     co2: 3,
     o2: 4
   },
   {
-    img:
-      "https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    img: "http://lorempixel.com/640/480/city/6",
     temperature: 16,
     city: "Cudillero",
+    lat: 43.5615134347732,
+    lng: -6.2325336546,
     pm25: 2,
     co2: 3,
     o2: 4
   },
   {
-    img:
-      "https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
+    img: "http://lorempixel.com/640/480/city/",
     temperature: 22,
     city: "Tazones",
+    lat: 43.55,
+    lng: -5.4333,
     pm25: 2,
     co2: 1,
     o2: 1
   },
   {
-    img:
-      "https://images.pexels.com/photos/457882/pexels-photo-457882.jpeg?auto=compress&cs=tinysrgb&h=650&w=940",
-    temperature: 16,
-    city: "Cudillero",
+    img: "http://lorempixel.com/640/480/city/7",
+    temperature: 19,
+    city: "Luarca",
+    lat: 43.5333,
+    lng: -6.5333,
     pm25: 2,
-    co2: 3,
-    o2: 4
+    co2: 1,
+    o2: 5
+  },
+  {
+    img: "http://lorempixel.com/640/480/city/8",
+    temperature: 15,
+    city: "Luanco",
+    lat: 43.6156,
+    lng: -5.7907,
+    pm25: 18,
+    co2: 1,
+    o2: 5
+  },
+  {
+    img: "http://lorempixel.com/640/480/city/9",
+    temperature: 23,
+    city: "Ribadesella",
+    lat: 43.4533738601054,
+    lng: -5.0707923884,
+    pm25: 5,
+    co2: 1,
+    o2: 5
+  },
+  {
+    img: "http://lorempixel.com/640/480/city/10",
+    temperature: 13,
+    city: "Grao",
+    lat: 43.3134032486579,
+    lng: -6.0997788411,
+    pm25: 5,
+    co2: 0,
+    o2: 5
   }
 ];
 
@@ -889,7 +928,7 @@ export function getCiudadesByType(type) {
   ciudades.forEach(el => {
     if (
       (type === "1" && el.temperature >= 18) ||
-      (type === "" && el.temperature < 18)
+      (type === "2" && el.temperature < 18)
     )
       cAux.push(el);
   });

@@ -3,21 +3,14 @@ import Slider from "react-slick";
 import MapListItem from "./MapListItem";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import { getCiudadesByType } from "../mocks/mock1";
 
 class MapList extends Component {
   constructor(props) {
     super(props);
-    const items = getCiudadesByType(props.type).sort((a, b) => {
-      console.log(a, b);
-      if (a.pm25 + a.co2 + a.o2 > b.pm25 + b.co2 + b.o2) {
-        return 1;
-      }
-      return -1;
-    });
     this.state = {
-      items,
-      baseItems: items,
+      changeFirst: props.changeFirst,
+      items: props.items,
+      baseItems: props.items,
       search: ""
     };
     this.setItems = this.setItems.bind(this);
@@ -36,7 +29,7 @@ class MapList extends Component {
       let searchValue = el.city.toLowerCase();
       return searchValue.indexOf(e.target.value) !== -1;
     });
-    console.log(items);
+    this.state.changeFirst(items[0]);
     this.setState({
       search: e.target.value,
       items
