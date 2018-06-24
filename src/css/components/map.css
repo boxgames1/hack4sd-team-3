@@ -2,15 +2,6 @@
   color: #000;
   height: 50vh; }
 
-.MapContainer .Map #c-map {
-  position: relative;
-  top: 0;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 100%; }
-
 .MapContainer .Map .input {
   margin: auto;
   position: absolute;
@@ -28,4 +19,37 @@
   z-index: 1000000; }
 
 .MapContainer .MapList {
-  height: 50vh; }
+  height: 50vh;
+  padding-top: 30px; }
+
+.MapContainer .MapList .slick-list {
+  width: 90%;
+  margin: 0 5%; }
+
+.MapContainer .MapList input {
+  width: 90%;
+  margin: 10% 5%; }
+
+.MapContainer .MapList .slick-prev {
+  left: 5px;
+  z-index: 5000; }
+
+.MapContainer .MapList .slick-next {
+  right: 5px;
+  z-index: 5000; }
+
+.MapContainer .MapList .slick-prev:before, .MapContainer .MapList .slick-next:before {
+  color: black; }
+
+.MapContainer .MapList .MapListItem {
+  width: 100%; }
+
+.MapContainer .MapList .MapListItem img {
+  width: 80%;
+  margin: 0 10%; }
+
+.MapContainer .MapList .MapListItem p {
+  color: green; }
+
+.MapContainer .MapList .MapListItem h2 {
+  font-weight: bold; }

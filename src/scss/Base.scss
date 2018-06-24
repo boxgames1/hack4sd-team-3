@@ -1,5 +1,7 @@
 @import "Variables.scss";
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
 .App {
   text-align: center;
   color:$app-text-color;
+  font-family: 'Montserrat', sans-serif;
 }

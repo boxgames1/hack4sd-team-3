@@ -15,7 +15,7 @@ class MapScreen extends Component {
     }
     return (
       <div>
-        <MapContainer season={season} />
+        <MapContainer type={season} />
       </div>
     );
   }
