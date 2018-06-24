@@ -1,28 +1,27 @@
+import ReactSwipe from "react-swipe";
 import React, { Component } from "react";
 
 class SeasonButton extends Component {
   constructor(props) {
     super(props);
-    let season, tag, title, subtitle;
+    let season, tag, title;
     switch (props.option) {
       case 1:
-        season = "Auttumn/Winter";
-        tag = "Brown lovers";
-        title = "Autumn";
-        subtitle = "Live a season in autumn";
+        season = "warm";
+        tag = "or swipe right >>";
+        title = "Warm";
         break;
       case 2:
-        season = "Spring/Summer";
-        tag = "Brown lovers";
-        title = "Autumn";
-        subtitle = "Live a season in autumn";
+        season = "cold";
+        tag = "<< or swipe left";
+        title = "Cold";
         break;
     }
+    this.swipe = props.swipe;
     this.state = {
       season,
       tag,
       title,
-      subtitle,
       option: props.option
     };
     this.clickSeason = this.clickSeason.bind(this);
@@ -34,11 +33,10 @@ class SeasonButton extends Component {
 
   render() {
     return (
-      <div className="SeasonButton">
-        <button onClick={this.clickSeason}>{this.state.season}</button>
-        <p className="slider-tag">{this.state.tag}</p>
+      <div className={"SeasonButton col-xs-12 " + this.state.season}>
         <h2 className="slider-title">{this.state.title}</h2>
-        <p className="slider-subtitle">{this.state.subtitle}</p>
+        <button onClick={this.clickSeason}>CONFIRM</button>
+        <p className="slider-tag">{this.state.tag}</p>
       </div>
     );
   }
