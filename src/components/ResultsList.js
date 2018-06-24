@@ -10,23 +10,19 @@ import { ListGroup } from "react-bootstrap";
 class ResultsList extends Component {
   constructor(props){
     super(props);
+    this.state = {
       latitude: props.latitude,
       longitude: props.longitude,
       type: props.type,
-      items: [],
-      hotels: [],
+      items: []
     };
     this.setHotels = this.setHotels.bind(this);
   }
-  
-  setHotels(hotels){
-    this.setState({
-      hotels
-    });
-  };
 
   componentWillMount() {
-    getHotels(this.state.latitude, this.state.longitude, this.setHotels);
+    //Amadeus
+    if(this.state.type === "1")
+      getHotels(this.state.latitude, this.state.longitude, this.setHotels);
     // MiNube
     // getPOI(this.state.latitude, this.state.longitude, 100000, this.setItems);
     if (this.state.type === "2") {
@@ -41,6 +37,13 @@ class ResultsList extends Component {
       items
     });
   }
+
+  setHotels(items){
+    this.setState({
+      items
+    });
+  };
+
   render() {
     return (
       <div className="ResultsList">
@@ -53,6 +56,7 @@ class ResultsList extends Component {
         </ListGroup>
       </div>
     );
+  }
 }
 
 ResultsList.propTypes = {
