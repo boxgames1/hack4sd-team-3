@@ -3,7 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "ajv": "^6.0.0",
+    "amadeus": "^1.0.1",
     "bootstrap": "3.3.6",
+    "eslint": "^4.1.1",
+    "eslint-plugin-import": "^2.6.0",
     "font-awesome": "^4.7.0",
     "jquery": "2.2.4",
     "prop-types": "^15.6.1",
@@ -16,7 +20,10 @@
     "react-scripts": "1.1.4",
     "react-slick": "^0.23.1",
     "react-sortable-hoc": "^0.8.3",
-    "slick-carousel": "^1.8.1"
+    "slick-carousel": "^1.8.1",
+    "vega": "^3.3.1",
+    "wri-api-components": "^1.1.0",
+    "wri-json-api-serializer": "^1.0.1"
   },
   "devDependencies": {
     "babel-plugin-transform-object-rest-spread": "^6.26.0",
