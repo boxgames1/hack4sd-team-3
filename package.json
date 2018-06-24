@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "ajv": "^6.0.0",
     "amadeus": "^1.0.1",
     "bootstrap": "3.3.6",
     "eslint": "^4.1.1",
@@ -12,6 +13,7 @@
     "jquery": "2.2.4",
     "layer-manager": "^0.1.1",
     "lodash": "^4.17.10",
+    "nuka-carousel": "^4.2.2",
     "prop-types": "^15.6.1",
     "react": "^16.4.1",
     "react-bootstrap": "^0.32.1",
@@ -19,8 +21,9 @@
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.1.4",
     "react-slick": "^0.23.1",
-    "react-sortable-hoc": "^0.8.3",
+    "react-sortable-hoc": "^0.6.8",
     "slick-carousel": "^1.8.1",
+    "vega": "^3.3.1",
     "wri-api-components": "^1.1.0",
     "wri-json-api-serializer": "^1.0.1"
   },
