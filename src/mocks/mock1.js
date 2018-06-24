@@ -1805,13 +1805,13 @@ export const hotels = [{
   "type": "hotel-offers",
   "hotel": {
     "type": "hotel",
-    "hotelId": "BGLONBGB",
-    "chainCode": "BG",
-    "dupeId": "502141127",
-    "name": "TEST CONTENT",
-    "cityCode": "LON",
-    "latitude": 51.50642,
-    "longitude": -0.12721
+    "hotelId": "AROVDFOR",
+    "chainCode": "AR",
+    "dupeId": "700026139",
+    "name": "AC BY MARRIOTT OVIEDO FORUM",
+    "cityCode": "OVD",
+    "latitude": 43.3593,
+    "longitude": -5.83745
   },
   "available": false,
   "offers": [{
@@ -1821,915 +1821,200 @@ export const hotels = [{
       "type": "REG",
       "typeEstimated": {
         "beds": 1,
-        "bedType": "KING"
+        "bedType": "SINGLE"
       },
       "description": {
         "lang": "EN",
-        "text": "Regular Rate, see Rate Rules Sup' Rm Top floor, 40 sqm king bed, marble bath room, elegant seating area, Floor to ceiling wi"
+        "text": "Regular Rate 1 Queen or 2 Twin/Single Bed(s), Wireless inter net, complimentary"
       }
     },
     "guests": {
       "adults": 1
     },
     "price": {
-      "currency": "GBP",
-      "total": "690.00"
+      "currency": "EUR",
+      "total": "78.10"
     }
   }],
-  "self": "https://test.api.amadeus.com/v1/shopping/hotels/BGLONBGB/hotel-offers"
+  "self": "https://test.api.amadeus.com/v1/shopping/hotels/AROVDFOR/hotel-offers"
 },
 {
   "type": "hotel-offers",
   "hotel": {
     "type": "hotel",
-    "hotelId": "HLLON101",
-    "chainCode": "HL",
-    "dupeId": "700027723",
-    "name": "THE TRAFALGAR",
-    "cityCode": "LON",
-    "latitude": 51.50729,
-    "longitude": -0.12889
+    "hotelId": "TYOVDHES",
+    "chainCode": "TY",
+    "dupeId": "700025517",
+    "name": "GRAN HOTEL ESPANA ATIRAM",
+    "cityCode": "OVD",
+    "latitude": 43.36332,
+    "longitude": -5.84512
   },
   "available": false,
   "offers": [{
-    "id": "22A85D549C01801F2D11A67BCF64E2AC3ADAC25BBA44FC4BE0B364812C227A65",
-    "rateCode": "RAC",
-    "room": {
-      "type": "C1D",
-      "typeEstimated": {
-        "beds": 1,
-        "bedType": "QUEEN"
-      },
-      "description": {
-        "lang": "EN",
-        "text": "AAA STAY AND SAVE TRAFALGAR QUEEN ROOM COMP WIFI/COFFEE-TEA FACILITIES/USB PORT"
-      }
-    },
-    "guests": {
-      "adults": 1
-    },
-    "price": {
-      "currency": "GBP",
-      "total": "347.00",
-      "variations": {
-        "average": {
-          "total": "347.00"
-        }
-      }
-    }
-  }],
-  "self": "https://test.api.amadeus.com/v1/shopping/hotels/HLLON101/hotel-offers"
-},
-{
-  "type": "hotel-offers",
-  "hotel": {
-    "type": "hotel",
-    "hotelId": "XKLON321",
-    "chainCode": "XK",
-    "dupeId": "501108165",
-    "name": "HOTEL LONDON ALLOCATION",
-    "cityCode": "LON",
-    "latitude": 51.50218,
-    "longitude": -0.12714
-  },
-  "available": true,
-  "offers": [{
-    "id": "6548E0FE446A7DB16A402CE6E2FB00A366EEDDAB25324307DD537350B9C4F652",
-    "room": {
-      "type": "C1D",
-      "typeEstimated": {
-        "beds": 1,
-        "bedType": "DOUBLE"
-      },
-      "description": {
-        "lang": "es",
-        "text": "Double Room"
-      }
-    },
-    "guests": {
-      "adults": 1
-    },
-    "price": {
-      "currency": "GBP",
-      "total": "45.00",
-      "variations": {
-        "changes": [{
-          "startDate": "2018-06-24",
-          "endDate": "2018-06-25",
-          "base": "45.00"
-        }]
-      }
-    },
-    "policies": {
-      "holdTime": {
-        "deadline": "2018-06-24T19:00:00"
-      }
-    }
-  }],
-  "self": "https://test.api.amadeus.com/v1/shopping/hotels/XKLON321/hotel-offers"
-},
-{
-  "type": "hotel-offers",
-  "hotel": {
-    "type": "hotel",
-    "hotelId": "RDLON308",
-    "chainCode": "RD",
-    "dupeId": "700024308",
-    "name": "RADISSON BLU HAMPSHIRE LONDON",
-    "cityCode": "LON",
-    "latitude": 51.50997,
-    "longitude": -0.12971
-  },
-  "available": true,
-  "offers": [{
-    "id": "E8506E83807A82DD6E1E39475938A76E0A78FDB795721586DA80EF2FD42190F6",
-    "rateCode": "AAA",
-    "commission": {
-      "percentage": "10.00"
-    },
-    "room": {
-      "type": "ROH",
-      "typeEstimated": {
-        "category": "STANDARD_ROOM"
-      },
-      "description": {
-        "lang": "en",
-        "text": "CONF PRT NO STANDARD ROOM -SELLING DESCRIPTION"
-      }
-    },
-    "guests": {
-      "adults": 1
-    },
-    "price": {
-      "currency": "GBP",
-      "total": "79.00",
-      "variations": {
-        "average": {
-          "total": "79.00"
-        },
-        "changes": [{
-          "startDate": "2018-06-24",
-          "endDate": "2018-06-25",
-          "total": "79.00"
-        }]
-      }
-    },
-    "policies": {
-      "cancellation": {
-        "amount": "79.00"
-      },
-      "guarantee": {
-        "acceptedPayments": {
-          "creditCards": ["AX",
-          "CB",
-          "DN",
-          "DR",
-          "DV",
-          "JC",
-          "CA",
-          "VI"],
-          "methods": ["TRAVEL_AGENT_ID",
-          "CORPORATE_ID",
-          "COMPANY_ADDRESS",
-          "CREDIT_CARD"]
-        }
-      }
-    }
-  }],
-  "self": "https://test.api.amadeus.com/v1/shopping/hotels/RDLON308/hotel-offers"
-},
-{
-  "type": "hotel-offers",
-  "hotel": {
-    "type": "hotel",
-    "hotelId": "PILONBAK",
-    "chainCode": "PI",
-    "dupeId": "700189156",
-    "name": "PREMIER INN LONDON LEICESTER SQUARE",
-    "cityCode": "LON",
-    "latitude": 51.51096,
-    "longitude": -0.13024
-  },
-  "available": true,
-  "offers": [{
-    "id": "D5659B1B268CE8335A9053D5EBC589FBC93FD7AC59EC1EB39D721E73E58B1ED5",
-    "rateCode": "CON",
-    "room": {
-      "type": "C1K",
-      "typeEstimated": {
-        "beds": 1,
-        "bedType": "KING"
-      },
-      "description": {
-        "lang": "en",
-        "text": "Double Room 1 King Bed"
-      }
-    },
-    "guests": {
-      "adults": 1
-    },
-    "price": {
-      "currency": "GBP",
-      "base": "95.00",
-      "total": "119.63",
-      "taxes": [{
-        "code": "VAT_GST_TAX",
-        "pricingFrequency": "PER_STAY",
-        "pricingMode": "PER_PRODUCT",
-        "amount": "19.00",
-        "included": false
-      },
-      {
-        "code": "SERVICE_CHARGE",
-        "pricingFrequency": "PER_STAY",
-        "pricingMode": "PER_PRODUCT",
-        "amount": "5.63",
-        "included": false
-      }],
-      "variations": {
-        "average": {
-          "base": "95.00"
-        },
-        "changes": [{
-          "startDate": "2018-06-24",
-          "endDate": "2018-06-25",
-          "base": "95.00"
-        }]
-      }
-    },
-    "policies": {
-      "cancellation": {
-        "deadline": "2018-06-24T13:00:00"
-      },
-      "guarantee": {
-        "acceptedPayments": {
-          "creditCards": ["CA",
-          "AX",
-          "AT",
-          "DC",
-          "DL",
-          "VI"],
-          "methods": ["CREDIT_CARD"]
-        }
-      }
-    }
-  }],
-  "self": "https://test.api.amadeus.com/v1/shopping/hotels/PILONBAK/hotel-offers"
-},
-{
-  "type": "hotel-offers",
-  "hotel": {
-    "type": "hotel",
-    "hotelId": "FALONSAV",
-    "chainCode": "FA",
-    "dupeId": "700013512",
-    "name": "FAIRMONT SAVOY",
-    "cityCode": "LON",
-    "latitude": 51.50977,
-    "longitude": -0.12003
-  },
-  "available": false,
-  "offers": [{
-    "id": "100A9847B354AA08EA8D4CB8C0FCDA7DE9F3676AB1F7CBE63098175992BDB75F",
-    "rateCode": "STO",
+    "id": "FF00A800DCC81DA508FF277810CEF395B04555A2F519135690C0E7178C8D2C31",
+    "rateCode": "BAR",
     "commission": {
       "percentage": "10.0"
     },
     "room": {
-      "type": "D1Q",
+      "type": "C1S",
       "typeEstimated": {
-        "category": "SUPERIOR_ROOM",
-        "beds": 1,
-        "bedType": "QUEEN"
-      },
-      "description": {
-        "lang": "EN",
-        "text": "Last Minute for Less Non Ref SUPERIOR QUEEN BED, CITY/COURTYARD VIEW, NS. 30SQM / 323SQF. EDWARDIAN OR ART DECO STYLE."
-      }
-    },
-    "guests": {
-      "adults": 1
-    },
-    "price": {
-      "currency": "GBP",
-      "total": "556.00"
-    }
-  }],
-  "self": "https://test.api.amadeus.com/v1/shopping/hotels/FALONSAV/hotel-offers"
-},
-{
-  "type": "hotel-offers",
-  "hotel": {
-    "type": "hotel",
-    "hotelId": "MDLONMER",
-    "chainCode": "MD",
-    "dupeId": "700009367",
-    "name": "LE MERIDIEN PICCADILLY",
-    "cityCode": "LON",
-    "latitude": 51.50908,
-    "longitude": -0.1368
-  },
-  "available": false,
-  "offers": [{
-    "id": "6182669086B1FEB3ABB5EDA9751FED8EC49F8736A4401EFB963497D4EB934D4E",
-    "rateCode": "RAC",
-    "commission": {
-      "percentage": "8.0"
-    },
-    "room": {
-      "type": "A1Q",
-      "typeEstimated": {
-        "category": "STANDARD_ROOM",
-        "beds": 1,
-        "bedType": "QUEEN"
-      },
-      "description": {
-        "lang": "EN",
-        "text": "1 QUEEN:RACK RATE CLASSIC NON-SMOKING ROOM:FREE ACCESS TO HLTH CLUB/POOL:COFFEE/TEA MAKER:3 LCD TV"
-      }
-    },
-    "guests": {
-      "adults": 1
-    },
-    "price": {
-      "currency": "GBP",
-      "total": "560.00",
-      "variations": {
-        "average": {
-          "total": "560.00"
-        }
-      }
-    },
-    "policies": {
-      "cancellation": {
-        "deadline": "2018-06-24T14:00:00"
-      },
-      "holdTime": {
-        "deadline": "2018-06-24T14:00:00"
-      }
-    }
-  }],
-  "self": "https://test.api.amadeus.com/v1/shopping/hotels/MDLONMER/hotel-offers"
-},
-{
-  "type": "hotel-offers",
-  "hotel": {
-    "type": "hotel",
-    "hotelId": "PILONAKT",
-    "chainCode": "PI",
-    "dupeId": "700135536",
-    "name": "PREMIER INN LONDON COUNTY HALL",
-    "cityCode": "LON",
-    "latitude": 51.50147,
-    "longitude": -0.11876
-  },
-  "available": true,
-  "offers": [{
-    "id": "D5659B1B268CE8335A9053D5EBC589FBC93FD7AC59EC1EB39D721E73E58B1ED5",
-    "rateCode": "CON",
-    "room": {
-      "type": "C1K",
-      "typeEstimated": {
-        "beds": 1,
-        "bedType": "KING"
-      },
-      "description": {
-        "lang": "en",
-        "text": "Double Room 1 King Bed"
-      }
-    },
-    "guests": {
-      "adults": 1
-    },
-    "price": {
-      "currency": "GBP",
-      "base": "80.00",
-      "total": "101.63",
-      "taxes": [{
-        "code": "VAT_GST_TAX",
-        "pricingFrequency": "PER_STAY",
-        "pricingMode": "PER_PRODUCT",
-        "amount": "16.00",
-        "included": false
-      },
-      {
-        "code": "SERVICE_CHARGE",
-        "pricingFrequency": "PER_STAY",
-        "pricingMode": "PER_PRODUCT",
-        "amount": "5.63",
-        "included": false
-      }],
-      "variations": {
-        "average": {
-          "base": "80.00"
-        },
-        "changes": [{
-          "startDate": "2018-06-24",
-          "endDate": "2018-06-25",
-          "base": "80.00"
-        }]
-      }
-    },
-    "policies": {
-      "cancellation": {
-        "deadline": "2018-06-24T13:00:00"
-      },
-      "guarantee": {
-        "acceptedPayments": {
-          "creditCards": ["CA",
-          "AX",
-          "AT",
-          "DC",
-          "DL",
-          "VI"],
-          "methods": ["CREDIT_CARD"]
-        }
-      }
-    }
-  }],
-  "self": "https://test.api.amadeus.com/v1/shopping/hotels/PILONAKT/hotel-offers"
-},
-{
-  "type": "hotel-offers",
-  "hotel": {
-    "type": "hotel",
-    "hotelId": "MCLONCHM",
-    "chainCode": "MC",
-    "dupeId": "700060041",
-    "name": "LONDON MARRIOTT COUNTY HALL",
-    "cityCode": "LON",
-    "latitude": 51.50106,
-    "longitude": -0.11927
-  },
-  "available": false,
-  "offers": [{
-    "id": "9764A7E24FB12411BDE0E25017D333D45076771D2CABF28590E3567B5A969013",
-    "rateCode": "RAC",
-    "room": {
-      "type": "XMI",
-      "typeEstimated": {
-        "category": "DELUXE_ROOM",
-        "beds": 1,
-        "bedType": "KING"
-      },
-      "description": {
-        "lang": "EN",
-        "text": "Marriott Senior Discount, 62 years and older va Deluxe Room, 1 King, 30sqm/323sqft-45sqm/484sqf t, Wireless internet, for a fee, Wired internet"
-      }
-    },
-    "guests": {
-      "adults": 1
-    },
-    "price": {
-      "currency": "GBP",
-      "total": "353.00"
-    }
-  }],
-  "self": "https://test.api.amadeus.com/v1/shopping/hotels/MCLONCHM/hotel-offers"
-},
-{
-  "type": "hotel-offers",
-  "hotel": {
-    "type": "hotel",
-    "hotelId": "CNLON944",
-    "chainCode": "CN",
-    "dupeId": "700153823",
-    "name": "CONRAD LONDON ST JAMES",
-    "cityCode": "LON",
-    "latitude": 51.49982,
-    "longitude": -0.13312
-  },
-  "available": false,
-  "offers": [{
-    "id": "9EDE4AC7E05BADD829ABF3E2A423003F896D0F6B7F03FC9D4DEAAC206ABD74AF",
-    "rateCode": "RAC",
-    "room": {
-      "type": "E1K",
-      "typeEstimated": {
-        "category": "SUPERIOR_ROOM",
-        "beds": 1,
-        "bedType": "KING"
-      },
-      "description": {
-        "lang": "EN",
-        "text": "BEST AVAILABLE RATE KING SUPERIOR ROOM COMP WIFI/GLOBAL MEDIA HUB/42 INCH SAT HDTV"
-      }
-    },
-    "guests": {
-      "adults": 1
-    },
-    "price": {
-      "currency": "GBP",
-      "total": "279.00",
-      "variations": {
-        "average": {
-          "total": "279.00"
-        }
-      }
-    }
-  }],
-  "self": "https://test.api.amadeus.com/v1/shopping/hotels/CNLON944/hotel-offers"
-},
-{
-  "type": "hotel-offers",
-  "hotel": {
-    "type": "hotel",
-    "hotelId": "RDLON310",
-    "chainCode": "RD",
-    "dupeId": "700024307",
-    "name": "RADISSON BLU MERCER ST LONDON",
-    "cityCode": "LON",
-    "latitude": 51.514,
-    "longitude": -0.12698
-  },
-  "available": true,
-  "offers": [{
-    "id": "6B6A36371EC89DCA7E359F8A88355B0550E13E8EF3FFD8E2EF26B77A5A2EC5C7",
-    "rateCode": "PRO",
-    "commission": {
-      "percentage": "10.00"
-    },
-    "room": {
-      "type": "O1T",
-      "typeEstimated": {
-        "category": "DELUXE_ROOM",
         "beds": 1,
         "bedType": "SINGLE"
       },
       "description": {
-        "lang": "en",
-        "text": "PAY- SAVE AND STAY PROMOTION 1T-SINGLE BED-DELUXE SINGLE ROOM"
-      }
-    },
-    "guests": {
-      "adults": 1
-    },
-    "price": {
-      "currency": "GBP",
-      "total": "141.00",
-      "variations": {
-        "average": {
-          "base": "120.00"
-        },
-        "changes": [{
-          "startDate": "2018-06-24",
-          "endDate": "2018-06-25",
-          "base": "120.00"
-        }]
-      }
-    },
-    "policies": {
-      "cancellation": {
-        "amount": "120.00"
-      },
-      "deposit": {
-        "acceptedPayments": {
-          "creditCards": ["AB",
-          "AX",
-          "BC",
-          "BR",
-          "BX",
-          "CB",
-          "DN",
-          "DS",
-          "JC",
-          "CA",
-          "RL",
-          "SM",
-          "UP",
-          "VI"],
-          "methods": ["CREDIT_CARD"]
-        }
-      }
-    }
-  }],
-  "self": "https://test.api.amadeus.com/v1/shopping/hotels/RDLON310/hotel-offers"
-},
-{
-  "type": "hotel-offers",
-  "hotel": {
-    "type": "hotel",
-    "hotelId": "PILONBBY",
-    "chainCode": "PI",
-    "dupeId": "700189816",
-    "name": "PREMIER INN LONDON WATERLOO",
-    "cityCode": "LON",
-    "latitude": 51.50329,
-    "longitude": -0.11521
-  },
-  "available": true,
-  "offers": [{
-    "id": "D5659B1B268CE8335A9053D5EBC589FBC93FD7AC59EC1EB39D721E73E58B1ED5",
-    "rateCode": "CON",
-    "room": {
-      "type": "C1K",
-      "typeEstimated": {
-        "beds": 1,
-        "bedType": "KING"
-      },
-      "description": {
-        "lang": "en",
-        "text": "Double Room 1 King Bed"
-      }
-    },
-    "guests": {
-      "adults": 1
-    },
-    "price": {
-      "currency": "GBP",
-      "base": "74.17",
-      "total": "94.63",
-      "taxes": [{
-        "code": "VAT_GST_TAX",
-        "pricingFrequency": "PER_STAY",
-        "pricingMode": "PER_PRODUCT",
-        "amount": "14.83",
-        "included": false
-      },
-      {
-        "code": "SERVICE_CHARGE",
-        "pricingFrequency": "PER_STAY",
-        "pricingMode": "PER_PRODUCT",
-        "amount": "5.63",
-        "included": false
-      }],
-      "variations": {
-        "average": {
-          "base": "74.17"
-        },
-        "changes": [{
-          "startDate": "2018-06-24",
-          "endDate": "2018-06-25",
-          "base": "74.17"
-        }]
-      }
-    },
-    "policies": {
-      "cancellation": {
-        "deadline": "2018-06-24T13:00:00"
-      },
-      "guarantee": {
-        "acceptedPayments": {
-          "creditCards": ["CA",
-          "AX",
-          "AT",
-          "DC",
-          "DL",
-          "VI"],
-          "methods": ["CREDIT_CARD"]
-        }
-      }
-    }
-  }],
-  "self": "https://test.api.amadeus.com/v1/shopping/hotels/PILONBBY/hotel-offers"
-},
-{
-  "type": "hotel-offers",
-  "hotel": {
-    "type": "hotel",
-    "hotelId": "HLLON555",
-    "chainCode": "HL",
-    "dupeId": "700013395",
-    "name": "THE WALDORF HILTON",
-    "cityCode": "LON",
-    "latitude": 51.51264,
-    "longitude": -0.11937
-  },
-  "available": false,
-  "offers": [{
-    "id": "4C7730FBD38E06F283E47702163641A9D28C92E3C4454F59D844F226D7113482",
-    "rateCode": "RAC",
-    "room": {
-      "type": "C1Q",
-      "typeEstimated": {
-        "beds": 1,
-        "bedType": "DOUBLE"
-      },
-      "description": {
         "lang": "EN",
-        "text": "BEST AVAILABLE RATE QUEEN GUEST ROOM DOUBLE BED IN CONTEMPORY SETTING"
+        "text": "DAILY BEST AVAILABLE RATE SINGLE ROOM Individual air conditioning, minibar, WiFi, TV"
       }
     },
     "guests": {
       "adults": 1
     },
     "price": {
-      "currency": "GBP",
-      "total": "255.00",
+      "currency": "EUR",
+      "total": "63.00",
       "variations": {
         "average": {
-          "total": "255.00"
+          "total": "63.00"
         }
-      }
-    }
-  }],
-  "self": "https://test.api.amadeus.com/v1/shopping/hotels/HLLON555/hotel-offers"
-},
-{
-  "type": "hotel-offers",
-  "hotel": {
-    "type": "hotel",
-    "hotelId": "PILONBBE",
-    "chainCode": "PI",
-    "dupeId": "700189809",
-    "name": "PREMIER INN LONDON BLACKFRIARS",
-    "cityCode": "LON",
-    "latitude": 51.5131,
-    "longitude": -0.10561
-  },
-  "available": true,
-  "offers": [{
-    "id": "D5659B1B268CE8335A9053D5EBC589FBC93FD7AC59EC1EB39D721E73E58B1ED5",
-    "rateCode": "CON",
-    "room": {
-      "type": "C1K",
-      "typeEstimated": {
-        "beds": 1,
-        "bedType": "KING"
-      },
-      "description": {
-        "lang": "en",
-        "text": "Double Room 1 King Bed"
-      }
-    },
-    "guests": {
-      "adults": 1
-    },
-    "price": {
-      "currency": "GBP",
-      "base": "62.50",
-      "total": "80.63",
-      "taxes": [{
-        "code": "VAT_GST_TAX",
-        "pricingFrequency": "PER_STAY",
-        "pricingMode": "PER_PRODUCT",
-        "amount": "12.50",
-        "included": false
-      },
-      {
-        "code": "SERVICE_CHARGE",
-        "pricingFrequency": "PER_STAY",
-        "pricingMode": "PER_PRODUCT",
-        "amount": "5.63",
-        "included": false
-      }],
-      "variations": {
-        "average": {
-          "base": "62.50"
-        },
-        "changes": [{
-          "startDate": "2018-06-24",
-          "endDate": "2018-06-25",
-          "base": "62.50"
-        }]
       }
     },
     "policies": {
       "cancellation": {
-        "deadline": "2018-06-24T13:00:00"
+        "deadline": "2018-06-23T18:00:00"
       },
       "guarantee": {
         "acceptedPayments": {
-          "creditCards": ["CA",
-          "AX",
-          "AT",
-          "DC",
-          "DL",
-          "VI"],
-          "methods": ["CREDIT_CARD"]
+          "methods": ["CREDIT_CARD",
+          "TRAVEL_AGENT_ID"]
         }
       }
     }
   }],
-  "self": "https://test.api.amadeus.com/v1/shopping/hotels/PILONBBE/hotel-offers"
+  "self": "https://test.api.amadeus.com/v1/shopping/hotels/TYOVDHES/hotel-offers"
 },
 {
   "type": "hotel-offers",
   "hotel": {
     "type": "hotel",
-    "hotelId": "WVLONKHH",
-    "chainCode": "WV",
-    "dupeId": "700008988",
-    "name": "KINGSWAY HALL HOTEL",
-    "cityCode": "LON",
-    "latitude": 51.5146,
-    "longitude": -0.12205
-  },
-  "available": true,
-  "offers": [{
-    "id": "271A8F7771C2E49324F342889EAB9436CBB307C26CC6591F71331599E39C670F",
-    "rateCode": "BAR",
-    "category": "WKD",
-    "room": {
-      "type": "C2D",
-      "typeEstimated": {
-        "beds": 2,
-        "bedType": "KING"
-      },
-      "description": {
-        "lang": "es",
-        "text": "Mejor tarifa disponible  KING Air conditioning individually controlled Room only rate excluding VAT rate excludes a 2%"
-      }
-    },
-    "guests": {
-      "adults": 1
-    },
-    "price": {
-      "currency": "GBP",
-      "total": "110.00",
-      "taxes": [{
-        "code": "CITY_TAX",
-        "percentage": 20.0,
-        "included": false
-      }],
-      "variations": {
-        "average": {
-          "base": "91.67"
-        },
-        "changes": [{
-          "startDate": "2018-06-24",
-          "endDate": "2018-06-25",
-          "base": "91.67"
-        }]
-      }
-    },
-    "policies": {
-      "cancellation": {
-        "deadline": "2018-06-23T14:00:00"
-      },
-      "deposit": {
-        "amount": "55.00",
-        "acceptedPayments": {
-          "creditCards": ["VI",
-          "MC",
-          "AX",
-          "SW",
-          "DC",
-          "CB",
-          "JC"],
-          "methods": ["CREDIT_CARD"]
-        }
-      }
-    }
-  }],
-  "self": "https://test.api.amadeus.com/v1/shopping/hotels/WVLONKHH/hotel-offers"
-},
-{
-  "type": "hotel-offers",
-  "hotel": {
-    "type": "hotel",
-    "hotelId": "HSLCYAAR",
+    "hotelId": "HSOVDABH",
     "chainCode": "HS",
-    "dupeId": "700031357",
-    "name": "TWENTY NEVERN SQUARE",
-    "cityCode": "LCY",
-    "latitude": 51.4915,
-    "longitude": -0.19631
+    "dupeId": "700094595",
+    "name": "HOTEL CONFORT",
+    "cityCode": "OVD",
+    "latitude": 43.36821,
+    "longitude": -5.8449
   },
   "available": true,
   "offers": [{
-    "id": "6145A8D32FDBFFCB33BD6799839D67B1B902A7FB07A0C7A525564F68FA2AA8AD",
-    "rateCode": "PRO",
+    "id": "65D9974429D5CDE40E578DB33340C365DFA3A4A4CB7397DA0E7595159CD186AB",
+    "rateCode": "RAC",
     "commission": {
       "percentage": "4.00"
     },
-    "boardType": "BREAKFAST",
     "room": {
       "type": "ROH",
       "description": {
         "lang": "es",
-        "text": "Hot Deal Habitacion estandar La habitacion estandar es una habitacion con ducha-inodoro o banera-inodoro."
+        "text": "Tarifa HRS Habitacion estandar La habitacion estandar es una habitacion con ducha-inodoro o banera-inodoro."
       }
     },
     "guests": {
       "adults": 1
     },
     "price": {
-      "currency": "GBP",
-      "total": "126.00",
+      "currency": "EUR",
+      "total": "35.00",
       "taxes": [{
         "code": "VALUE_ADDED_TAX",
-        "percentage": 20.0,
+        "percentage": 10.0,
         "included": true
       }],
       "variations": {
         "average": {
-          "total": "126.00"
+          "total": "35.00"
         },
         "changes": [{
           "startDate": "2018-06-24",
           "endDate": "2018-06-25",
-          "total": "126.00"
+          "total": "35.00"
         }]
       }
     },
     "policies": {
       "cancellation": {
-        "amount": "126.00",
-        "deadline": "2018-06-22T09:51:00"
+        "numberOfNights": 1,
+        "type": "NIGHTS",
+        "deadline": "2018-06-23T22:59:00"
       },
-      "deposit": {
-        "amount": "126.00",
+      "guarantee": {
+        "acceptedPayments": {
+          "creditCards": ["VI",
+          "MC",
+          "CA"],
+          "methods": ["CREDIT_CARD"]
+        }
+      }
+    }
+  }],
+  "self": "https://test.api.amadeus.com/v1/shopping/hotels/HSOVDABH/hotel-offers"
+},
+{
+  "type": "hotel-offers",
+  "hotel": {
+    "type": "hotel",
+    "hotelId": "HSOVDACH",
+    "chainCode": "HS",
+    "dupeId": "700169191",
+    "name": "CARBAYON II.",
+    "cityCode": "OVD",
+    "latitude": 43.37187,
+    "longitude": -5.83111
+  },
+  "available": true,
+  "offers": [{
+    "id": "FA54532FBDB06A78D651554F1A5A11C155532F6645097ED2AD9D7FCC7DE84289",
+    "rateCode": "RAC",
+    "commission": {
+      "percentage": "4.00"
+    },
+    "room": {
+      "type": "ROH",
+      "description": {
+        "lang": "es",
+        "text": "Tarifa HRS Habitacion estandar La habitacion estandar es una habitacion con ducha-inodoro o banera-inodoro."
+      }
+    },
+    "guests": {
+      "adults": 1
+    },
+    "price": {
+      "currency": "EUR",
+      "total": "39.00",
+      "taxes": [{
+        "code": "VALUE_ADDED_TAX",
+        "percentage": 10.0,
+        "included": true
+      }],
+      "variations": {
+        "average": {
+          "total": "39.00"
+        },
+        "changes": [{
+          "startDate": "2018-06-24",
+          "endDate": "2018-06-25",
+          "total": "39.00"
+        }]
+      }
+    },
+    "policies": {
+      "cancellation": {
+        "numberOfNights": 1,
+        "type": "NIGHTS",
+        "deadline": "2018-06-24T17:00:00"
+      },
+      "guarantee": {
         "acceptedPayments": {
           "creditCards": ["VI",
           "MC",
@@ -2740,631 +2025,145 @@ export const hotels = [{
       }
     }
   }],
-  "self": "https://test.api.amadeus.com/v1/shopping/hotels/HSLCYAAR/hotel-offers"
+  "self": "https://test.api.amadeus.com/v1/shopping/hotels/HSOVDACH/hotel-offers"
 },
 {
   "type": "hotel-offers",
   "hotel": {
     "type": "hotel",
-    "hotelId": "HILON9D3",
-    "chainCode": "HI",
-    "dupeId": "700008340",
-    "name": "HOLIDAY INN MAYFAIR",
-    "cityCode": "LON",
-    "latitude": 51.50781,
-    "longitude": -0.14284
+    "hotelId": "HSOVDACS",
+    "chainCode": "HS",
+    "dupeId": "700084578",
+    "name": "GRAN HOTEL LAS CALDAS",
+    "cityCode": "OVD",
+    "latitude": 43.33202,
+    "longitude": -5.92425
   },
   "available": true,
   "offers": [{
-    "id": "504343F525E263725779F64B1673BAB548ED639DC390D8E25BFFA91F6249E5C5",
-    "rateCode": "013",
+    "id": "9C795D920D7DBB6482EFDE98780583D5527B18B9692542180A0216881C908B0D",
+    "rateCode": "RAC",
+    "commission": {
+      "percentage": "4.00"
+    },
+    "boardType": "BREAKFAST",
     "room": {
-      "type": "*RH",
-      "typeEstimated": {
-        "category": "STANDARD_ROOM"
-      },
+      "type": "ROH",
       "description": {
         "lang": "es",
-        "text": "BEST FLEXIBLE RATE STANDARD ROOM WHEN YOU ARRIVE WE WILL DO OUR BEST TO MEET YOUR PREFERRED ROOM TYPE. THESE"
+        "text": "Tarifa HRS Habitacion estandar La habitacion estandar es una habitacion con ducha-inodoro o banera-inodoro."
       }
     },
     "guests": {
       "adults": 1
     },
     "price": {
-      "currency": "GBP",
-      "base": "209.00",
-      "total": "209.00",
+      "currency": "EUR",
+      "total": "128.00",
       "taxes": [{
-        "code": "MISCELLANEOUS",
-        "pricingFrequency": "PER_NIGHT",
-        "pricingMode": "PER_PRODUCT",
-        "percentage": 20.0,
+        "code": "VALUE_ADDED_TAX",
+        "percentage": 10.0,
         "included": true
       }],
       "variations": {
         "average": {
-          "base": "209.00"
+          "total": "128.00"
         },
         "changes": [{
           "startDate": "2018-06-24",
           "endDate": "2018-06-25",
-          "base": "209.00"
+          "total": "128.00"
         }]
       }
     },
     "policies": {
       "cancellation": {
         "numberOfNights": 1,
-        "type": "NIGHTS"
+        "type": "NIGHTS",
+        "deadline": "2018-06-23T22:59:00"
       },
       "guarantee": {
         "acceptedPayments": {
-          "creditCards": ["AX",
+          "creditCards": ["DC",
+          "DN",
           "VI",
+          "MC",
           "CA",
-          "DC",
-          "CB",
-          "DS",
-          "BE"],
+          "AX"],
           "methods": ["CREDIT_CARD"]
         }
       }
     }
   }],
-  "self": "https://test.api.amadeus.com/v1/shopping/hotels/HILON9D3/hotel-offers"
+  "self": "https://test.api.amadeus.com/v1/shopping/hotels/HSOVDACS/hotel-offers"
 },
 {
   "type": "hotel-offers",
   "hotel": {
     "type": "hotel",
-    "hotelId": "TGLON783",
-    "chainCode": "TG",
-    "dupeId": "700061930",
-    "name": "TRAVELODGE COVENT GARDEN",
-    "cityCode": "LON",
-    "latitude": 51.51588,
-    "longitude": -0.12385
-  },
-  "available": false,
-  "offers": [{
-    "id": "F10E17E9BE4AFC4333A0528E3A9729709CE3919F8068A5F1B133A9582B550A63",
-    "rateCode": "G5B",
-    "boardType": "BREAKFAST",
-    "room": {
-      "type": "HA1",
-      "typeEstimated": {
-        "category": "ACCESSIBLE_ROOM",
-        "beds": 1,
-        "bedType": "DOUBLE"
-      },
-      "description": {
-        "lang": "EN",
-        "text": "GDS BAR incl Full English  NON SMOKING DOUBLE ACCESSIBLE ZIP LINK EN SUITE MAX OCCUPANCY 2 ADULTS"
-      }
-    },
-    "guests": {
-      "adults": 1
-    },
-    "price": {
-      "currency": "GBP",
-      "total": "8.25",
-      "variations": {
-        "average": {
-          "total": "8.25"
-        }
-      }
-    },
-    "policies": {
-      "cancellation": {
-        "deadline": "2018-06-24T00:00:00"
-      }
-    }
-  }],
-  "self": "https://test.api.amadeus.com/v1/shopping/hotels/TGLON783/hotel-offers"
-},
-{
-  "type": "hotel-offers",
-  "hotel": {
-    "type": "hotel",
-    "hotelId": "RDLON859",
-    "chainCode": "RD",
-    "dupeId": "700049965",
-    "name": "THE MAY FAIR HOTEL LONDON",
-    "cityCode": "LON",
-    "latitude": 51.50721,
-    "longitude": -0.1436
+    "hotelId": "HSOVDACR",
+    "chainCode": "HS",
+    "dupeId": "501819303",
+    "name": "ENCLAVE LAS CALDAS",
+    "cityCode": "OVD",
+    "latitude": 43.33206,
+    "longitude": -5.92603
   },
   "available": true,
   "offers": [{
-    "id": "388FEB971B33BD714D258DEE9D0DAD0516F0B0574B0683D3FA72062E0A049DA0",
+    "id": "8CD29D93EC0EFDAF551CBBCDD3CEED76DF084BFE0D5DDCF621DF2C28361A00D4",
     "rateCode": "RAC",
     "commission": {
-      "percentage": "10.00"
+      "percentage": "4.00"
     },
     "boardType": "BREAKFAST",
     "room": {
-      "type": "A00",
-      "description": {
-        "lang": "en",
-        "text": "BEST AVAILABLE RATE GROUP ROOMS-GROUP ROOMS ONLY"
-      }
-    },
-    "guests": {
-      "adults": 1
-    },
-    "price": {
-      "currency": "GBP",
-      "total": "84.00",
-      "taxes": [{
-        "code": "TOTAL_TAX",
-        "amount": "14.00",
-        "included": true
-      }],
-      "variations": {
-        "average": {
-          "base": "70.00"
-        },
-        "changes": [{
-          "startDate": "2018-06-24",
-          "endDate": "2018-06-25",
-          "base": "70.00"
-        }]
-      }
-    },
-    "policies": {
-      "cancellation": {
-        "amount": "70.00",
-        "deadline": "2018-06-24T21:00:00"
-      },
-      "holdTime": {
-        "deadline": "2018-06-24T21:00:00"
-      }
-    }
-  }],
-  "self": "https://test.api.amadeus.com/v1/shopping/hotels/RDLON859/hotel-offers"
-},
-{
-  "type": "hotel-offers",
-  "hotel": {
-    "type": "hotel",
-    "hotelId": "JDLONJGR",
-    "chainCode": "JD",
-    "dupeId": "700008850",
-    "name": "THE BLOOMSBURY HOTEL",
-    "cityCode": "LON",
-    "latitude": 51.5171,
-    "longitude": -0.13062000000000002
-  },
-  "available": false,
-  "offers": [{
-    "id": "BD88B7E6C52D77087A40CE26AA67D1056B1253B23E5C8FF64D827EC5F4F3AFFA",
-    "rateCode": "B10",
-    "commission": {
-      "percentage": "10.0"
-    },
-    "room": {
-      "type": "C1D",
-      "typeEstimated": {
-        "category": "STANDARD_ROOM",
-        "beds": 1,
-        "bedType": "DOUBLE"
-      },
-      "description": {
-        "lang": "EN",
-        "text": "Bed and Breakfast - incl tax STANDARD ROOM 1DBLE BED-FREE WIFI-16SQM-173SQFT FREE WATER-LUXURY TOILETTRIES-NESPRESSO-GYM"
-      }
-    },
-    "guests": {
-      "adults": 1
-    },
-    "price": {
-      "currency": "GBP",
-      "total": "254.00",
-      "variations": {
-        "average": {
-          "total": "254.00"
-        }
-      }
-    },
-    "policies": {
-      "cancellation": {
-        "deadline": "2018-06-24T00:00:00"
-      }
-    }
-  }],
-  "self": "https://test.api.amadeus.com/v1/shopping/hotels/JDLONJGR/hotel-offers"
-},
-{
-  "type": "hotel-offers",
-  "hotel": {
-    "type": "hotel",
-    "hotelId": "RDLON313",
-    "chainCode": "RD",
-    "dupeId": "700011504",
-    "name": "RADISSON BLU BLOOMSBURY ST LDN",
-    "cityCode": "LON",
-    "latitude": 51.51745,
-    "longitude": -0.12738
-  },
-  "available": true,
-  "offers": [{
-    "id": "C9432602801FA7A6F87A82AA303052925F690E032F7F852B793EE1003791D02D",
-    "rateCode": "BBB",
-    "commission": {
-      "percentage": "10.00"
-    },
-    "room": {
-      "type": "H1T",
-      "typeEstimated": {
-        "category": "STANDARD_ROOM",
-        "beds": 1,
-        "bedType": "SINGLE"
-      },
-      "description": {
-        "lang": "en",
-        "text": "CARRIE S TEST RATE 1T-SINGLE BED-SINGLE CLASSIC ROOM 3FT BED"
-      }
-    },
-    "guests": {
-      "adults": 1
-    },
-    "price": {
-      "currency": "GBP",
-      "total": "352.50",
-      "taxes": [{
-        "code": "TOTAL_TAX",
-        "amount": "52.50",
-        "included": true
-      }],
-      "variations": {
-        "average": {
-          "base": "300.00"
-        },
-        "changes": [{
-          "startDate": "2018-06-24",
-          "endDate": "2018-06-25",
-          "base": "300.00"
-        }]
-      }
-    },
-    "policies": {
-      "cancellation": {
-        "amount": "352.50",
-        "deadline": "2018-06-24T13:00:00"
-      },
-      "holdTime": {
-        "deadline": "2018-06-24T13:00:00"
-      }
-    }
-  }],
-  "self": "https://test.api.amadeus.com/v1/shopping/hotels/RDLON313/hotel-offers"
-},
-{
-  "type": "hotel-offers",
-  "hotel": {
-    "type": "hotel",
-    "hotelId": "HLLON091",
-    "chainCode": "HL",
-    "dupeId": "700008150",
-    "name": "HILTON LONDON GREEN PARK",
-    "cityCode": "LON",
-    "latitude": 51.50608,
-    "longitude": -0.14699
-  },
-  "available": false,
-  "offers": [{
-    "id": "45EBB60D62DDCB14CE796F35E627A7A10B6890CBE213CE79DA5FDF211C2258CE",
-    "rateCode": "RAC",
-    "room": {
-      "type": "C1S",
-      "typeEstimated": {
-        "beds": 1,
-        "bedType": "SINGLE"
-      },
-      "description": {
-        "lang": "EN",
-        "text": "AAA STAY AND SAVE SINGLE GUEST ROOM SINGLE BEDDED  ROOM FOR 1 ADULT"
-      }
-    },
-    "guests": {
-      "adults": 1
-    },
-    "price": {
-      "currency": "GBP",
-      "total": "184.00",
-      "variations": {
-        "average": {
-          "total": "184.00"
-        }
-      }
-    }
-  }],
-  "self": "https://test.api.amadeus.com/v1/shopping/hotels/HLLON091/hotel-offers"
-},
-{
-  "type": "hotel-offers",
-  "hotel": {
-    "type": "hotel",
-    "hotelId": "RDLON312",
-    "chainCode": "RD",
-    "dupeId": "700011488",
-    "name": "RADISSON BLU KENILWORTH LONDON",
-    "cityCode": "LON",
-    "latitude": 51.51801,
-    "longitude": -0.12809
-  },
-  "available": true,
-  "offers": [{
-    "id": "AB7A402FDDD77178EC9F0C7D7146D0C13A2B860C8C5847C7A2B9D84A5B1BAE58",
-    "rateCode": "RAC",
-    "commission": {
-      "percentage": "10.00"
-    },
-    "room": {
-      "type": "A1T",
-      "typeEstimated": {
-        "beds": 1,
-        "bedType": "SINGLE"
-      },
-      "description": {
-        "lang": "en",
-        "text": "GENERAL RATE 1T-SINGLE BED-SINGLE ROOM WITH BATHTUB"
-      }
-    },
-    "guests": {
-      "adults": 1
-    },
-    "price": {
-      "currency": "GBP",
-      "total": "100.00",
-      "variations": {
-        "average": {
-          "total": "100.00"
-        },
-        "changes": [{
-          "startDate": "2018-06-24",
-          "endDate": "2018-06-25",
-          "total": "100.00"
-        }]
-      }
-    },
-    "policies": {
-      "cancellation": {
-        "amount": "100.00",
-        "deadline": "2018-06-24T16:00:00"
-      },
-      "holdTime": {
-        "deadline": "2018-06-24T16:00:00"
-      }
-    }
-  }],
-  "self": "https://test.api.amadeus.com/v1/shopping/hotels/RDLON312/hotel-offers"
-},
-{
-  "type": "hotel-offers",
-  "hotel": {
-    "type": "hotel",
-    "hotelId": "EBLONEBE",
-    "chainCode": "EB",
-    "dupeId": "700013278",
-    "name": "THE LONDON EDITION",
-    "cityCode": "LON",
-    "latitude": 51.51713,
-    "longitude": -0.13635
-  },
-  "available": false,
-  "offers": [{
-    "id": "774702DE7B9B87CB8FC17F3CB869184D8AB8A16EC3D17E8FCB5A52FCB1F92D69",
-    "rateCode": "RAC",
-    "room": {
-      "type": "REG",
-      "description": {
-        "lang": "EN",
-        "text": "Regular Rate Guest Room, 1 King or 1 Queen, 22sqm/237sqft, W ireless internet, complimentary, Wired internet"
-      }
-    },
-    "guests": {
-      "adults": 1
-    },
-    "price": {
-      "currency": "GBP",
-      "total": "505.00"
-    }
-  }],
-  "self": "https://test.api.amadeus.com/v1/shopping/hotels/EBLONEBE/hotel-offers"
-},
-{
-  "type": "hotel-offers",
-  "hotel": {
-    "type": "hotel",
-    "hotelId": "HLLON333",
-    "chainCode": "HL",
-    "dupeId": "700018134",
-    "name": "HILTON LONDON PADDINGTON",
-    "cityCode": "LON",
-    "latitude": 51.51708,
-    "longitude": -0.17289
-  },
-  "available": false,
-  "offers": [{
-    "id": "5781658FFD2AA4DDA265C44F50C99BE62EFE273ED0FF70C7EFEB5BD918A85FF1",
-    "rateCode": "RAC",
-    "room": {
-      "type": "C1D",
-      "typeEstimated": {
-        "beds": 1,
-        "bedType": "DOUBLE"
-      },
-      "description": {
-        "lang": "EN",
-        "text": "BEST AVAILABLE RATE DOUBLE GUEST ROOM ART DECO, NATURAL DAYLIGHT, DESK, WIFI"
-      }
-    },
-    "guests": {
-      "adults": 1
-    },
-    "price": {
-      "currency": "GBP",
-      "total": "189.00",
-      "variations": {
-        "average": {
-          "total": "189.00"
-        }
-      }
-    }
-  }],
-  "self": "https://test.api.amadeus.com/v1/shopping/hotels/HLLON333/hotel-offers"
-},
-{
-  "type": "hotel-offers",
-  "hotel": {
-    "type": "hotel",
-    "hotelId": "HLLON460",
-    "chainCode": "HL",
-    "dupeId": "700022719",
-    "name": "DOUBLETREE LONDON WESTMINSTER",
-    "cityCode": "LON",
-    "latitude": 51.49329,
-    "longitude": -0.12711
-  },
-  "available": false,
-  "offers": [{
-    "id": "46D4DF0234C827E336384E8D12DE8298DBE49AF1C7553DB215DF1E01B3E8527C",
-    "rateCode": "RAC",
-    "room": {
-      "type": "B1Q",
-      "typeEstimated": {
-        "beds": 1,
-        "bedType": "QUEEN"
-      },
-      "description": {
-        "lang": "EN",
-        "text": "BEST AVAILABLE RATE QUEEN GUEST ROOM COMP WIFI/INC VAT/IMAC MEDIA SYSTEM"
-      }
-    },
-    "guests": {
-      "adults": 1
-    },
-    "price": {
-      "currency": "GBP",
-      "total": "169.00",
-      "variations": {
-        "average": {
-          "total": "169.00"
-        }
-      }
-    }
-  }],
-  "self": "https://test.api.amadeus.com/v1/shopping/hotels/HLLON460/hotel-offers"
-},
-{
-  "type": "hotel-offers",
-  "hotel": {
-    "type": "hotel",
-    "hotelId": "RTLONWAT",
-    "chainCode": "RT",
-    "dupeId": "700010569",
-    "name": "NOVOTEL LONDON WATERLOO",
-    "cityCode": "LON",
-    "latitude": 51.49486,
-    "longitude": -0.11829
-  },
-  "available": true,
-  "offers": [{
-    "id": "28BF8F3B07B52678F7BD3493BC999CC89745E14466F57545D7BB2367C774C610",
-    "rateCode": "1KD",
-    "room": {
-      "type": "A1Q",
-      "typeEstimated": {
-        "category": "SUPERIOR_ROOM",
-        "beds": 1,
-        "bedType": "QUEEN"
-      },
+      "type": "ROH",
       "description": {
         "lang": "es",
-        "text": "Best unrestricted rate Habitación de categoría superior con cama de ma trimonio y sofá cama"
+        "text": "Tarifa HRS Habitacion estandar La habitacion estandar es una habitacion con ducha-inodoro o banera-inodoro."
       }
     },
     "guests": {
       "adults": 1
     },
     "price": {
-      "currency": "GBP",
-      "total": "100.00",
+      "currency": "EUR",
+      "total": "97.00",
+      "taxes": [{
+        "code": "VALUE_ADDED_TAX",
+        "percentage": 10.0,
+        "included": true
+      }],
       "variations": {
         "average": {
-          "base": "100.00"
+          "total": "97.00"
         },
         "changes": [{
           "startDate": "2018-06-24",
           "endDate": "2018-06-25",
-          "total": "100.00"
+          "total": "97.00"
         }]
       }
     },
     "policies": {
       "cancellation": {
-        "deadline": "2018-06-23T00:00:00"
+        "numberOfNights": 1,
+        "type": "NIGHTS",
+        "deadline": "2018-06-23T22:59:00"
       },
-      "holdTime": {
-        "deadline": "2018-06-24T14:00:00"
-      }
-    }
-  }],
-  "self": "https://test.api.amadeus.com/v1/shopping/hotels/RTLONWAT/hotel-offers"
-},
-{
-  "type": "hotel-offers",
-  "hotel": {
-    "type": "hotel",
-    "hotelId": "CHLONH33",
-    "chainCode": "CH",
-    "dupeId": "700131212",
-    "name": "DOVER HOTEL",
-    "cityCode": "LON",
-    "latitude": 51.49196,
-    "longitude": -0.14216
-  },
-  "available": false,
-  "offers": [{
-    "id": "00A76F880A697FC10B3C682B26A7D4F59745D77B691E85AD9FCCABD34939AB12",
-    "rateCode": "BAR",
-    "commission": {
-      "percentage": "8"
-    },
-    "boardType": "BREAKFAST",
-    "room": {
-      "type": "C1D",
-      "typeEstimated": {
-        "category": "STANDARD_ROOM",
-        "beds": 1,
-        "bedType": "DOUBLE"
-      },
-      "description": {
-        "lang": "EN",
-        "text": "Non refundable Prepayment Best available rate Standard double room with wifi connection,sat TV,clock radio,telephone."
-      }
-    },
-    "guests": {
-      "adults": 1
-    },
-    "price": {
-      "currency": "GBP",
-      "total": "125.00",
-      "variations": {
-        "average": {
-          "total": "125.00"
-        }
-      }
-    },
-    "policies": {
-      "deposit": {
+      "guarantee": {
         "acceptedPayments": {
+          "creditCards": ["DC",
+          "DN",
+          "VI",
+          "MC",
+          "CA",
+          "AX"],
           "methods": ["CREDIT_CARD"]
         }
       }
     }
   }],
-  "self": "https://test.api.amadeus.com/v1/shopping/hotels/CHLONH33/hotel-offers"
+  "self": "https://test.api.amadeus.com/v1/shopping/hotels/HSOVDACR/hotel-offers"
 }]
