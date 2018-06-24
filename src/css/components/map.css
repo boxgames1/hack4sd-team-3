@@ -44,6 +44,9 @@
 .MapContainer .MapList .MapListItem {
   width: 100%; }
 
+.MapContainer .MapList .MapListItem a {
+  text-decoration: none; }
+
 .MapContainer .MapList .MapListItem img {
   width: 80%;
   margin: 0 10%; }

@@ -45,6 +45,9 @@
     }
     & .MapListItem{
       width: 100%;
+      & a{
+        text-decoration: none;
+      }
       & img{
         width: 80%;
         margin: 0 10%;
