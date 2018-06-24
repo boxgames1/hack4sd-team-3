@@ -2,8 +2,14 @@ import React, { Component } from "react";
 import Map from "../components/Map";
 import MapList from "../components/MapList";
 import "../css/components/map.css";
-import { getHemisphereFromDateSeason } from "../helpers/Utils";
 import { getCiudadesByType } from "../mocks/mock1";
+
+/*
+* This is the place where we make the sort of places based on 3 air quality parameters 
+* that we got from Resource Watch API. As same as in the other 2 (Amadeus and MiNube) we had to 
+* deal with CORS issues. Due to limited time we couldn't give effort in fix that problem.
+* The App works with this data and only would need to connect from a correct server.
+*/
 
 class MapContainer extends Component {
   constructor(props) {

@@ -1,7 +1,7 @@
 .ResultsContainer .returnButton {
   position: absolute;
-  left: 30px;
-  top: 30px;
+  right: 5px;
+  top: 5px;
   z-index: 9000; }
 
 .ResultsContainer .ResultsList {

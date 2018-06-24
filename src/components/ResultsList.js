@@ -1,15 +1,19 @@
 import React, { Component } from "react";
 
-import { getHotels } from '../helpers/ApiConsumerAmadeus';
+import { getHotels } from "../helpers/ApiConsumerAmadeus";
 import PropTypes from "prop-types";
 import ResultItem from "./ResultItem";
 import { oviedo } from "../mocks/mock1";
 import { hotels } from "../mocks/mock1";
 import { getPOI } from "../helpers/ApiConsumerMiNube";
 import { ListGroup } from "react-bootstrap";
-
+/*
+ * We had to mock the data due to CORS issues with the APIs of Amadeus and MiNube
+ * The functionallity is intact so we could integrate the app with the APIs without problem 
+ * but not from localhost. We'd need a proxy or production environment to avoid those issues.
+ */
 class ResultsList extends Component {
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
       latitude: props.latitude,
@@ -22,11 +26,11 @@ class ResultsList extends Component {
 
   componentWillMount() {
     //Amadeus
-    if(this.state.type === "1"){
-      this.setItems(hotels)
+    if (this.state.type === "1") {
+      this.setItems(hotels);
       //getHotels(this.state.latitude, this.state.longitude, this.setHotels);
     }
-      
+
     // MiNube
     if (this.state.type === "2") {
       this.setItems(oviedo);
@@ -42,11 +46,11 @@ class ResultsList extends Component {
     });
   }
 
-  setHotels(items){
+  setHotels(items) {
     this.setState({
       items
     });
-  };
+  }
 
   render() {
     return (
